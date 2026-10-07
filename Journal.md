@@ -16,3 +16,11 @@ We also looked into IAMF and Eclipsa, which Florian mentioned during our meeting
 
 Overall, this meeting helped us understand that the sound is really the main focus of the project. The map and 360 images are there to help navigate and visualize the different locations, but the goal is to create an experience where sound is the primary way of experiencing the space. Our next step is mainly technical research and creating a simple prototype to see what is possible before moving onto the more complex parts of the project.
 
+# Week 4
+
+## Overview
+
+<video width="700" controls>
+  <source src="../photoandvideo/2026-10-06%2014-17-41.mp4" type="video/mp4">
+</video>
+
