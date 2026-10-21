@@ -32,3 +32,17 @@ The next step is to start replacing the test material with the recordings and pa
 ![Pipeline](../photoandvideo/image1.png)
 
 [Prototype video](../photoandvideo/2026-10-06%2014-17-41.mp4)
+
+# Week 5
+
+## Overview
+
+This week we made more progress on the technical side of the project and started to have a better idea of how everything will connect together. Daniel continued working on the ambisonics part of the prototype and did more research on how we can improve the audio setup we already have. He found more information about Ambix and FuMa channel formats and was also looking into Omnitone, which is a JavaScript library that can work with Web Audio and ambisonic sound. He asked Florian if the microphone model would affect which setup we should use, but Florian explained that in theory ambisonics should be independent from the microphone model. This helped us understand a bit more how we should approach the audio side.
+
+André also worked more on the structure of the project and made a clearer list of what we need to work on. The main things right now are having a good base platform, integrating the map, working on the ambisonics demo, doing the UI in Figma and setting up the backend. His idea right now is to use Python and Flask for the backend, and possibly Vercel later for hosting. We also talked about using MongoDB as the database to store the information for each location, like GPS position, date, time, ID and which image and audio belongs to that location. There was also an idea to maybe have a model of the EV building later where users could access different floors and spaces, but that would be something we expand on later.
+
+A private GitHub repository was also created for the project. Right now there is almost nothing inside since it was just created, but at least now we have one place where everything can eventually be put together instead of having different files and prototypes everywhere. The Flask files, frontend, audio code and the rest of the project can all be added there as we go.
+
+On my side I started setting up MongoDB for the project. I created a MongoDB Atlas project for the Concordia Soundscape Explorer, made a free cluster, and created the soundscape database with a locations collection. The idea is that later the database will connect each location with all of its information and the correct sound and image files. I also started looking at how I can add the other group members to the MongoDB project so they can access it and connect it to the backend.
+
+I think the biggest difference this week is that we are starting to move away from only doing research and seperate tests, and actually starting to build the structure of the project. We have a better idea now of how the map, database, backend, 360 images and ambisonic audio can all connect together. The next step would be to start connecting these parts and try to get one full location working from the map, to the 360 image and spatial audio.
