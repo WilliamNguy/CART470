@@ -61,3 +61,17 @@ There were a few small problems while setting it up. I had to update the links i
 
 I worked on putting the changes onto the audio-demo branch and preparing a README with instructions for the rest of the team. This also helped me understand a bit more how branches and pull requests work. Although I often work on github, I always find it confusing.  There was some confusion with the folder structure during the upload, since the HTML belongs in templates while the CSS and JavaScript need to stay inside static. The branch also did not have all the map files yet, so I needed to make sure the complete project structure was there for someone else to download and run it. We still need to compare it with the latest map changes before merging everything into the main version.
 
+
+# Week 7
+
+## Overview
+
+This week we started preparing the midterm presentation and organizing how we would explain the project to the class. André started putting the slides together in Figma and shared the topics we needed to cover. On my side, I focused on introducing our client, explaining the background and scope of the project, and talking about where it could go later.
+
+I did more research on Florian through his Concordia page, LinkedIn and some of his published work. I looked into his work with Piet Devos, where they used recordings of Montreal to discuss how blind and sighted people experience the same spaces. They call these recordings sonic boundary objects. From what I understood, the recording gives people something they can listen to together and use to explain their own experience of a place. This helped me understand a bit more why Florian wanted sound to be the main focus of our project.
+
+I also went back through the transcript of our first meeting with him. Although some of the technical ideas have changed since then, it was useful to look back at what he originally wanted. One thing that stood out was how much he wanted the project to be modular. He wants to be able to record a location, associate a panoramic image and GPS information with it, and then add that location to the map. Our job is mainly to build the experience around that material and make it easier to repeat the process for other locations.
+
+For my presentation sections, I tried to make the difference clearer between the first version and the longer-term ideas. The starting point is a browser experience with selected outdoor locations around Concordia. Florian also talked about comparing the same place in the morning, at noon and in the evening. Later on, there could be indoor locations, a connection to a tactile map for blind users, or playback through the immersive visualization lab. These are directions we can work towards, but we still need to focus on getting the base experience working properly. I prepared my slides and a speaking script so I could explain this more clearly.
+
+I also tried running the local project again through VS Code using the virtual environment and Flask on port 5001. This time the command stayed waiting without showing that the server had started, so I still need to figure out what is blocking it. For now, the next step on my side is to get the local version running again and continue checking the connection between the map and the exploration page. Preparing the presentation helped me step back a bit and understand how that work fits into what Florian is asking us to build.
