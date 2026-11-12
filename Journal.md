@@ -74,3 +74,11 @@ I also went back through the transcript of our first meeting with him. Although 
 
 For my presentation sections, I tried to make the difference clearer between the first version and the longer-term ideas. The starting point is a browser experience with selected outdoor locations around Concordia. Florian also talked about comparing the same place in the morning, at noon and in the evening. Later on, there could be indoor locations, a connection to a tactile map for blind users, or playback through the immersive visualization lab. These are directions we can work towards, but we still need to focus on getting the base experience working properly. I prepared my slides and a speaking script so I could explain this more clearly.
 
+
+# Week 8
+
+## Overview
+
+This week we made a few touch-ups to the website and talked more about what we need to do next. We checked in with Florian to show him what we had done so far and keep him updated. The feedback was good and he liked how the prototype was looking. The main thing he brought up was that we need to start getting actual recordings with his microphone.
+
+Most of this week was more discussion and planning than hands-on work, although we did go back into the prototype to refine a few things. The next step is to get the microphone from Florian and pick up an Insta360 camera from the CDA so we can collect the audio and images we still need. We also want to record the same locations at different times of the day so we can compare how they sound. For now the goal is to get that material together so we can start putting it into the website.
