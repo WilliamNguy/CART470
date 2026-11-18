@@ -82,3 +82,12 @@ For my presentation sections, I tried to make the difference clearer between the
 This week we made a few touch-ups to the website and talked more about what we need to do next. We checked in with Florian to show him what we had done so far and keep him updated. The feedback was good and he liked how the prototype was looking. The main thing he brought up was that we need to start getting actual recordings with his microphone.
 
 Most of this week was more discussion and planning than hands-on work, although we did go back into the prototype to refine a few things. The next step is to get the microphone from Florian and pick up an Insta360 camera from the CDA so we can collect the audio and images we still need. We also want to record the same locations at different times of the day so we can compare how they sound. For now the goal is to get that material together so we can start putting it into the website.
+
+
+# Week 9
+
+## Overview
+
+This week we tried to set up a meeting with Florian to get the microphone and the 360 camera. We were aiming for Friday morning, but there was a bit of miscommunication and we weren't able to meet then. While we were waiting to hear back, we kept working on our own parts of the project and made a few small tweaks to the prototype.
+
+Florian got back to us by email, so we're back on track now. The plan is to do the recordings on Wednesday during or after class, depending on when we can meet with him. We also want to take the 360 photos that same day so we have both the audio and the images for the locations we record.
