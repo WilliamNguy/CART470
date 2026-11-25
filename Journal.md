@@ -91,3 +91,20 @@ Most of this week was more discussion and planning than hands-on work, although 
 This week we tried to set up a meeting with Florian to get the microphone and the 360 camera. We were aiming for Friday morning, but there was a bit of miscommunication and we weren't able to meet then. While we were waiting to hear back, we kept working on our own parts of the project and made a few small tweaks to the prototype.
 
 Florian got back to us by email, so we're back on track now. The plan is to do the recordings on Wednesday during or after class, depending on when we can meet with him. We also want to take the 360 photos that same day so we have both the audio and the images for the locations we record.
+
+
+# Week 10
+
+## Overview
+
+This week I focused more on the exploration page and how someone would actually use it. Daniel's demo gave us the base for the panorama and audio, and I had already connected it with Hugo's map. The page still looked more like a testing tool though, with a panel to upload images and audio and technical labels. I wanted it to feel more like an experience that a visitor could open and understand without having to bring their own files.
+
+I worked with coding assistance to update the exploration HTML, CSS and JavaScript. I removed the upload panel and made the panorama take up the screen, with the image and recording loading directly from our project files. I kept the Back to map button and added a smaller player at the bottom with play and pause, a timeline and volume. The idea was to give more space to the location itself while keeping the controls easy to find.
+
+The mouse controls took a few tries to get right. At first the page used dragging to look around, but I wanted the view to follow the mouse as soon as someone entered. Clicking the panorama starts the audio, and pressing Escape stops the mouse movement and brings back the cursor so the person can use the controls. I also wanted the cursor hidden while looking around, but when I tried it I realized that hiding it did not stop it from reaching the edge of the screen. Once it reached the edge, I could not keep turning. We added continuous turning near the left and right edges, and then a wider area at the top and bottom after I noticed the same problem when looking up.
+
+I also added arrow-key volume controls and brought back a short line explaining how to use the page. I had initially wanted fewer instructions, but making the page cleaner did not automatically make the controls obvious. Having one small note under the player seemed like a better balance.
+
+I checked the changes through the local preview. The page and media loaded, and the JavaScript syntax was checked, but this was still my own testing rather than a user test. Another thing I had to keep in mind is that the bundled recording is mono. It can help us test playback and the interface, but hearing it play does not prove that the spatial audio follows the direction we are looking.
+
+I think this week helped me move from just connecting the different parts to thinking more about how someone enters and uses the experience. The next steps are to connect each map marker to its own image and recording, test a proper AmbiX file with headphones, and check whether the controls work well for other users. We also still want to support recordings of the same location at different times of the day.
